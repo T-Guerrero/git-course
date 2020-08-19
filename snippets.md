@@ -18,7 +18,7 @@ git reflog `Retorna uma lista de alterações no HEAD`
 
 <br/>
 
-git remote set-head <repo> <branch> `Seta qual é a tracking branch default(branch que faz referência ao remote repository)`
+git remote set-head <repo_name> <branch_name> `Seta qual é a tracking branch default(branch que faz referência ao remote repository)`
 
 ### Fast Forward e Merge Commit
 

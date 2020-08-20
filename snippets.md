@@ -34,6 +34,12 @@ HEAD `Aponta para o commit atual`
 
 Branch Label `Aponta pro ultimo commit da branch`
 
+Topic Branch `Branchs de alguma feature, bug, hotfix, etc`
+
+Base Branch(long Lived Branch) `Branchs de longa vida`
+
+Tracking Branch `Branch do repositório remoto representada no repositório local`
+
 Fast Forward `Avança a Branch Label principal para o ultimo commit da topic branch (só possível se não existir commits na branch principal após a criação da topic branch)`
 
 Merge Commit `Combina os commits do topo das duas branchs criando um merge commit que tem os dois topos como pais`

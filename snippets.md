@@ -42,7 +42,7 @@ git checkout featureX
 
 git rebase master
 
-#Equivalente a:
+Equivalente a:
 
 git rebase master featureX `Git põe a master como novo pai da featureX`
 
@@ -68,7 +68,7 @@ HEAD `Aponta para o commit atual`
 
 Branch Label `Aponta pro ultimo commit da branch`
 
-Topic Branch `Branchs de alguma feature, bug, hotfix, etc`
+Topic Branch(Short Lived Branch) `Branchs de alguma feature, bug, hotfix, etc`
 
 Base Branch(long Lived Branch) `Branchs de longa vida`
 

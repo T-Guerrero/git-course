@@ -28,6 +28,20 @@ git merge <topic_branch> `Fast Forward é a tentativa default de merge`
 
 git branch -d <topic_branch>
 
+### Rebase
+
+git checkout featureX
+
+git rebase master
+
+#Equivalent to:
+
+git rebase master featureX `Git põe a master como novo pai da featureX`
+
+Em caso de conflito, resolver o conflito, adicionar na staging os novos arquivos e rodar:
+
+git rebase --continue
+
 #
 
 HEAD `Aponta para o commit atual`
@@ -43,3 +57,5 @@ Tracking Branch `Branch do repositório remoto representada no repositório loca
 Fast Forward `Avança a Branch Label principal para o ultimo commit da topic branch (só possível se não existir commits na branch principal após a criação da topic branch)`
 
 Merge Commit `Combina os commits do topo das duas branchs criando um merge commit que tem os dois topos como pais`
+
+Rebase `Rebase é uma forma de merge na qual você insere novos commits como pais dos próximos commits da sua branch atual mudando toda a história do projeto (Perigoso)`

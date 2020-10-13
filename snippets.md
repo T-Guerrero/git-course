@@ -14,6 +14,8 @@ git show HEAD~ `Aponta para o pai do commit (sintaxe: ~(pai), ~~(avô), ~2)`
 
 git checkout -b <branch_name> `Cria uma nova branch e altera o HEAD para ela`
 
+git branch -f <branch_name> <commit_id> `Move a branch label para um outro commit`
+
 git reflog `Retorna uma lista de alterações no HEAD`
 
 <br/>

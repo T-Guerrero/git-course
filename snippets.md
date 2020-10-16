@@ -6,6 +6,8 @@ git log --graph `Mostra o grafo de commits`
 
 <br/>
 
+git clone <link_repo> `Criar repositório local a partir do repositório remoto`
+
 git show HEAD^ `Aponta para o primeiro pai do HEAD (sintaxe: ^(primeiro pai), ^^(segundo pai), ^2)`
 
 git show HEAD~ `Aponta para o pai do commit (sintaxe: ~(pai), ~~(avô), ~2)`
